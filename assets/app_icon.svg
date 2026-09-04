@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#facc15"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#bg)"/>
+  <rect x="42" y="42" width="428" height="428" rx="96" fill="none" stroke="#3b82f6" stroke-width="10" opacity=".55"/>
+  <!-- trophy cup -->
+  <path d="M180 132h152v62c0 62-32 106-76 119-44-13-76-57-76-119z" fill="url(#gold)"/>
+  <path d="M180 154h-40v26c0 48 25 76 63 82" fill="none" stroke="#fbbf24" stroke-width="24" stroke-linecap="round"/>
+  <path d="M332 154h40v26c0 48-25 76-63 82" fill="none" stroke="#fbbf24" stroke-width="24" stroke-linecap="round"/>
+  <path d="M256 310v48" stroke="#fbbf24" stroke-width="26" stroke-linecap="round"/>
+  <path d="M200 378h112" stroke="#fbbf24" stroke-width="28" stroke-linecap="round"/>
+  <!-- bid / tracking pulse -->
+  <path d="M118 344h72l23-42 35 84 34-68 20 38h92" fill="none" stroke="#60a5fa" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="394" cy="356" r="14" fill="#22c55e"/>
+</svg>
